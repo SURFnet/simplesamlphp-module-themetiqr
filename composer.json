@@ -1,0 +1,18 @@
+{
+    "name": "tiqr/simplesamlphp-module-themetiqr",
+    "description": "Simplesamlphp module for tiqr theme.",
+    "type": "simplesamlphp-module",
+    "license": "BSD-3-Clause",
+    "extra": {
+        "ssp-mixedcase-module-name": "themeTiqr"
+    },
+    "require": {
+        "simplesamlphp/composer-module-installer": "~1.0",
+    }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SURFnet/simplesamlphp-module-themetiqr"
+        }
+    ]  
+}
